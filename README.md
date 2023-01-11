@@ -5,6 +5,10 @@ LG U+ Message Hub simple example
 ```text
 POST Content-Type: Multipart/FORM-DATA
     send MMS files
+
+Netty restful api
+
+annotation
 ```
 
 ## Environment
