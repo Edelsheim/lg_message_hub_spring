@@ -1,0 +1,18 @@
+server:
+  port: 8000
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+
+msghub:
+  apiKey: ""
+  rawPwd: ""
+  baseURL: https://api.msghub.uplus.co.kr
+  auth:
+    accessToken:
+      method: POST
+      path: /auth/v1
+    refreshToken:
+      method: PUT
+      path: /auth/v1/refresh
