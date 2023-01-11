@@ -1,6 +1,12 @@
 # lg_message_hub_spring
 LG U+ Message Hub simple example
 
+## TODO
+```text
+POST Content-Type: Multipart/FORM-DATA
+    send MMS files
+```
+
 ## Environment
 ```text
 OS: Windows 11 22H2
