@@ -16,3 +16,34 @@ msghub:
     refreshToken:
       method: PUT
       path: /auth/v1/refresh
+  message:
+    sms:
+      method: POST
+      path: /msg/v1/sms
+    mms:
+      method: POST
+      path: /msg/v1/mms
+    rcs:
+      method: POST
+      path: /msg/v1/rcs
+    kakaoAlim:
+      method: POST
+      path: /msg/v1/alimtalk
+    kakaoFriend:
+      method: POST
+      path: /msg/v1/friendtalk
+    push:
+      method: POST
+      path: /msg/v1/push
+    totalSend:
+      method: POST
+      path: /msg/v1.1/send
+    reportSent:
+      method: POST
+      path: /msg/v1/sent
+    reportPolling:
+      method: GET
+      path: /msg/v1.2/report
+    reportPollingResult:
+      method: POST
+      path: /msg/v1.2/report/result
