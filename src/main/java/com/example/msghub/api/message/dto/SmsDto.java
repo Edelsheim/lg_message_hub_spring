@@ -20,7 +20,7 @@ public class SmsDto {
         List<MessageDto.RecvInfo> recvInfoLst,
         List<MessageDto.FbInfo> fbInfoLst
     ) {
-        SmsRequest {
+        public SmsRequest {
             if (fbInfoLst == null) {
                 fbInfoLst = new ArrayList<MessageDto.FbInfo>();
             }
