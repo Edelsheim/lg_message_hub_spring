@@ -24,7 +24,7 @@ public class MmsDto {
         List<MessageDto.RecvInfo> recvInfoLst,
         List<MessageDto.FbInfo> fbInfoLst
     ) {
-        MmsRequest {
+        public MmsRequest {
             if (fileIdLst == null) {
                 fileIdLst = new ArrayList<String>();
             }
